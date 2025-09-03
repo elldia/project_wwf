@@ -1,0 +1,64 @@
+/* 공통변수 */
+:root {
+    /* 색상 */
+    --color-white:#fff;
+    --color-black:#000;
+    --color-gray-f5:#f5f5f5;
+    --color-point-orange1:#ff7300;
+    --color-point-orange2:#f39300;
+    /* 글꼴(desktop) */
+    --main-title70-d:4.375rem;
+    --main-subtitle55-d:3.438rem;
+    --main-content20-d:1.25rem;
+    --main-sponsor34-d:2.125rem;
+    --main-question26-d:1.625rem;
+    /* 글꼴(tablet) */
+    --main-title50-t:3.125rem;
+    --main-subtitle40-t:2.5rem;
+    --main-content16-t:1.0rem;
+    --main-sponsor22-t-m:1.375rem;
+    --main-question20-t-m:1.25rem;
+    /* 글꼴(mobile) */
+    --main-title30-m:1.875rem;
+    --main-subtitle25-m:1.563rem;
+    --main-content14-m:0.875rem;
+    /* 행간, 자간, 굵기 */
+    --line-150:1.5;
+    --line-130:1.3;
+    --letter-minus2:-0.02rem;
+    --weight-medium:500;
+    --weight-semi-bold:600;
+    --weight-bold:700;
+}
+/* 공통 common.css */
+#wrap .bg {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+#wrap .bg .container {
+    max-width:1250px; min-width:320px;
+    height:100vh; overflow:hidden;
+    margin:0 auto;
+    padding:120px 0 0;
+    background:rgba(255,255,0,0.5);/* 테스트용 */
+}
+#wrap .bg .container .sponsor_btn {
+    background:linear-gradient(90deg, var(--color-point-orange2), var(--color-point-orange1));
+    width:409px; height:71px;
+    border-radius:50px; font-size:var(--main-sponsor34-d);
+    font-weight:var(--weight-bold);
+    display:flex; flex-flow:row nowrap; justify-content: center; align-items: center;
+}
+#wrap .bg .container .sponsor_btn img {}
+#wrap .bg .container h2 {
+    text-align:center;
+    font-size:var(--main-subtitle55-d);
+    line-height:var(--line-130);
+    letter-spacing:var(--letter-minus2);
+    font-weight:var(--weight-semi-bold);
+}
+#wrap .bg .container h2+p {
+    font-size:var(--main-content20-d);
+    line-height:var(--line-150);
+}
