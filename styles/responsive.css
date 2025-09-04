@@ -1,0 +1,46 @@
+/* -------------태블릿 */
+@media screen and (max-width:1250px){
+    /* ---------------t1250--------공통 */
+    #wrap .bg .container {padding:155px 80px 0;}/* 전체 너비가 가변형, 좌우 여백 80px */
+    #wrap .bg .container h2 {font-size:var(--main-subtitle40-t);}
+    /* ---------------t1250--------1행 */
+    #wrap .row1 #visual .title {font-size:var(--main-title50-t);}
+    #wrap .bg .container .sponsor_btn {width:300px; height:60px;font-size:var(--main-sponsor22-t-m);}
+    #wrap .row1 #visual .sponsor_question_btn {font-size:var(--main-question20-t-m);}
+    /* ---------------t1250--------2행 */
+    #wrap .row2 #quiz .quiz_current .status {width:393px; height:217px;}
+    #wrap .row2 #quiz .quiz_current .status dt {font-size:var(--main-subtitle25-m);}
+    #wrap .row2 #quiz .quiz_current p {font-size:var(--main-content14-m);}
+    /* ---------------t1250--------3행 */ 
+    /* ---------------t1250--------4행 */
+    /* ---------------t1250--------5행 */
+}/* end 1250 */
+/* -------------모바일 */
+@media screen and (max-width:1024px){
+    /* ---------------m1024--------공통 */
+    #wrap .bg .container {padding:200px 15px 0;}
+    #wrap .bg .container h2 {font-size:var(--main-subtitle25-m);}
+    /* ---------------m1024--------1행 */
+    /* 이미지의 폭 변경 시 이미지태그는 100%, 필요한 경우 부모(블록)에만 px */
+    #wrap .row1 #visual .logo {width:50px; align-self:flex-start;}
+    #wrap .row1 #visual .logo a img {width:100%;}
+    #wrap .row1 #visual .title {font-size:var(--main-title30-m);}
+    #wrap .row1 #visual .sponsor_question_btn {margin:0 auto; float:none; font-size:var(--main-question20-t-m); width:350px; height:60px;}
+    /* ---------------m1024--------2행 */
+    #wrap .row2 #quiz {display:block;}
+    #wrap .row2 #quiz .quiz_list h2 {width:100%;}
+    #wrap .row2 #quiz .quiz_list #quiz_frm #quiz_answer_btn {width:100%;}
+    #wrap .row2 #quiz .quiz_current .status {width:321px; height:166px; margin:30px auto 0; float:none;}
+    #wrap .row2 #quiz .quiz_current .status dt {font-size:var(--main-subtitle25-m);}
+    #wrap .row2 #quiz .quiz_current .status dd {padding-top:30px;}
+    #wrap .row2 #quiz .quiz_current .status dd em {font-size:var(--main-title50-t);}
+    #wrap .row2 #quiz .quiz_current p {float:none; text-align:center;}
+    /* ---------------m1024--------3행 */
+    #wrap .row3 #story iframe {width:100%; height:361px;}
+    /* ---------------m1024--------4행 */
+    /* ---------------m1024--------5행 */
+    #wrap .row5 #wwf_msg2 {height:max-content;}
+    #wrap .row5 #wwf_msg2 .msg_card_wrap {display:block;}
+    #wrap .row5 #wwf_msg2 .msg_card_wrap li {margin:0 0 20px;}
+    #wrap .row5 #wwf_msg2 .msg_card_wrap li dl {height:193px; background-position:center bottom; background-size:cover;}
+}/* end 1024 */

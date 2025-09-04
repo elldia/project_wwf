@@ -41,7 +41,6 @@
     height:100vh; overflow:hidden;
     margin:0 auto;
     padding:120px 0 0;
-    background:rgba(255,255,0,0.5);/* 테스트용 */
 }
 #wrap .bg .container .sponsor_btn {
     background:linear-gradient(90deg, var(--color-point-orange2), var(--color-point-orange1));
